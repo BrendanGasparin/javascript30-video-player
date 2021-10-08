@@ -8,6 +8,8 @@ const skipButtons = player.querySelectorAll('[data-skip]');
 const ranges = player.querySelectorAll('.player__slider');
 const fullScreenButton = player.querySelector('.fullscreen');
 
+progressBar.style.flexBasis = '0%';
+
 /* Build functions */
 function togglePlay() {
     if(video.paused) {
